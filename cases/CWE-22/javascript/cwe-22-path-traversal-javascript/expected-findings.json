@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-22-path-traversal-javascript",
+  "cwe_id": "CWE-22",
+  "title": "Improper Limitation of a Pathname to a Restricted Directory",
+  "category": "File System",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-22/javascript/cwe-22-path-traversal-javascript/vulnerable/fixture.js",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-22/javascript/cwe-22-path-traversal-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

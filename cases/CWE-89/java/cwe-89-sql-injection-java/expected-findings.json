@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-89-sql-injection-java",
+  "cwe_id": "CWE-89",
+  "title": "Improper Neutralization of Special Elements used in an SQL Command",
+  "category": "Injection",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-89/java/cwe-89-sql-injection-java/vulnerable/fixture.java",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-89/java/cwe-89-sql-injection-java/fixed/fixture.java",
+    "expected": false
+  }
+}

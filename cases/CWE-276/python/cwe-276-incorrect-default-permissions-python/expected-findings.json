@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-276-incorrect-default-permissions-python",
+  "cwe_id": "CWE-276",
+  "title": "Incorrect Default Permissions",
+  "category": "Authorization",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-276/python/cwe-276-incorrect-default-permissions-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-276/python/cwe-276-incorrect-default-permissions-python/fixed/fixture.py",
+    "expected": false
+  }
+}

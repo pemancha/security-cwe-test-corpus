@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-312-cleartext-storage-python",
+  "cwe_id": "CWE-312",
+  "title": "Cleartext Storage of Sensitive Information",
+  "category": "Data Protection",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-312/python/cwe-312-cleartext-storage-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-312/python/cwe-312-cleartext-storage-python/fixed/fixture.py",
+    "expected": false
+  }
+}

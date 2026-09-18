@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-79-cross-site-scripting-javascript",
+  "cwe_id": "CWE-79",
+  "title": "Improper Neutralization of Input During Web Page Generation",
+  "category": "Injection",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-79/javascript/cwe-79-cross-site-scripting-javascript/vulnerable/fixture.js",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-79/javascript/cwe-79-cross-site-scripting-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-434-unrestricted-upload-python",
+  "cwe_id": "CWE-434",
+  "title": "Unrestricted Upload of File with Dangerous Type",
+  "category": "File Handling",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-434/python/cwe-434-unrestricted-upload-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-434/python/cwe-434-unrestricted-upload-python/fixed/fixture.py",
+    "expected": false
+  }
+}

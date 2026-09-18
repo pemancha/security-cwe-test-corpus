@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-78-os-command-injection-python",
+  "cwe_id": "CWE-78",
+  "title": "Improper Neutralization of Special Elements used in an OS Command",
+  "category": "Injection",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-78/python/cwe-78-os-command-injection-python/vulnerable/fixture.py",
+    "lines": [
+      6
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-78/python/cwe-78-os-command-injection-python/fixed/fixture.py",
+    "expected": false
+  }
+}

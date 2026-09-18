@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-319-cleartext-transmission-go",
+  "cwe_id": "CWE-319",
+  "title": "Cleartext Transmission of Sensitive Information",
+  "category": "Data Protection",
+  "language": "go",
+  "vulnerable": {
+    "path": "cases/CWE-319/go/cwe-319-cleartext-transmission-go/vulnerable/fixture.go",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-319/go/cwe-319-cleartext-transmission-go/fixed/fixture.go",
+    "expected": false
+  }
+}

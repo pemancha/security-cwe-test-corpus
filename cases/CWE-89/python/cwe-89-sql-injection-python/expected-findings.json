@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-89-sql-injection-python",
+  "cwe_id": "CWE-89",
+  "title": "Improper Neutralization of Special Elements used in an SQL Command",
+  "category": "Injection",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-89/python/cwe-89-sql-injection-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-89/python/cwe-89-sql-injection-python/fixed/fixture.py",
+    "expected": false
+  }
+}

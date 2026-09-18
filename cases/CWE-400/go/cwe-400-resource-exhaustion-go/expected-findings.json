@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-400-resource-exhaustion-go",
+  "cwe_id": "CWE-400",
+  "title": "Uncontrolled Resource Consumption",
+  "category": "Availability",
+  "language": "go",
+  "vulnerable": {
+    "path": "cases/CWE-400/go/cwe-400-resource-exhaustion-go/vulnerable/fixture.go",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-400/go/cwe-400-resource-exhaustion-go/fixed/fixture.go",
+    "expected": false
+  }
+}

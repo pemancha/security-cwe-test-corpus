@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-287-improper-authentication-java",
+  "cwe_id": "CWE-287",
+  "title": "Improper Authentication",
+  "category": "Authentication",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-287/java/cwe-287-improper-authentication-java/vulnerable/fixture.java",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-287/java/cwe-287-improper-authentication-java/fixed/fixture.java",
+    "expected": false
+  }
+}

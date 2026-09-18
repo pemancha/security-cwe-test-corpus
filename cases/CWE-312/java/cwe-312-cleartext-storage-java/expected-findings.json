@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-312-cleartext-storage-java",
+  "cwe_id": "CWE-312",
+  "title": "Cleartext Storage of Sensitive Information",
+  "category": "Data Protection",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-312/java/cwe-312-cleartext-storage-java/vulnerable/fixture.java",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-312/java/cwe-312-cleartext-storage-java/fixed/fixture.java",
+    "expected": false
+  }
+}

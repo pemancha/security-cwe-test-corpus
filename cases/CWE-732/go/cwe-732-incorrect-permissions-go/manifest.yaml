@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-732-incorrect-permissions-go
+cwe_id: CWE-732
+title: "Incorrect Permission Assignment for Critical Resource"
+category: "Authorization"
+language: go
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.go
+fixed_path: fixed/fixture.go
+vulnerable_line: 5

@@ -1,0 +1,22 @@
+name: Validate controlled corpus
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate corpus contract
+        run: python3 tools/validate_corpus.py
+      - name: Reject prohibited generated artifacts
+        run: test -z "$(find . -type f \( -name '*.log' -o -name '*.pem' -o -name '*.key' -o -name '*.p12' -o -name '*.pfx' \) -print)"

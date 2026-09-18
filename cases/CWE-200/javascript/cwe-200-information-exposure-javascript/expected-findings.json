@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-200-information-exposure-javascript",
+  "cwe_id": "CWE-200",
+  "title": "Exposure of Sensitive Information to an Unauthorized Actor",
+  "category": "Data Protection",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-200/javascript/cwe-200-information-exposure-javascript/vulnerable/fixture.js",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-200/javascript/cwe-200-information-exposure-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-400-resource-exhaustion-python",
+  "cwe_id": "CWE-400",
+  "title": "Uncontrolled Resource Consumption",
+  "category": "Availability",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-400/python/cwe-400-resource-exhaustion-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-400/python/cwe-400-resource-exhaustion-python/fixed/fixture.py",
+    "expected": false
+  }
+}

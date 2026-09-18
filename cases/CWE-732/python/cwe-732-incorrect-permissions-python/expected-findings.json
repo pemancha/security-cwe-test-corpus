@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-732-incorrect-permissions-python",
+  "cwe_id": "CWE-732",
+  "title": "Incorrect Permission Assignment for Critical Resource",
+  "category": "Authorization",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-732/python/cwe-732-incorrect-permissions-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-732/python/cwe-732-incorrect-permissions-python/fixed/fixture.py",
+    "expected": false
+  }
+}

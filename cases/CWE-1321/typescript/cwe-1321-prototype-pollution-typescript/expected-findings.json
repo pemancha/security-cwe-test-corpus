@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-1321-prototype-pollution-typescript",
+  "cwe_id": "CWE-1321",
+  "title": "Improperly Controlled Modification of Object Prototype Attributes",
+  "category": "JavaScript",
+  "language": "typescript",
+  "vulnerable": {
+    "path": "cases/CWE-1321/typescript/cwe-1321-prototype-pollution-typescript/vulnerable/fixture.ts",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-1321/typescript/cwe-1321-prototype-pollution-typescript/fixed/fixture.ts",
+    "expected": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-94-code-injection-javascript",
+  "cwe_id": "CWE-94",
+  "title": "Improper Control of Generation of Code",
+  "category": "Injection",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-94/javascript/cwe-94-code-injection-javascript/vulnerable/fixture.js",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-94/javascript/cwe-94-code-injection-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

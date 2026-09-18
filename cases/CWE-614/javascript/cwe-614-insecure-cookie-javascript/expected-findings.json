@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-614-insecure-cookie-javascript",
+  "cwe_id": "CWE-614",
+  "title": "Sensitive Cookie in HTTPS Session Without Secure Attribute",
+  "category": "Web Security",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-614/javascript/cwe-614-insecure-cookie-javascript/vulnerable/fixture.js",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-614/javascript/cwe-614-insecure-cookie-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

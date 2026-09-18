@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-863-incorrect-authorization-java
+cwe_id: CWE-863
+title: "Incorrect Authorization"
+category: "Authorization"
+language: java
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.java
+fixed_path: fixed/fixture.java
+vulnerable_line: 3

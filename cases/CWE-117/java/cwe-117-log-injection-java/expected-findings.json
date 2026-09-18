@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-117-log-injection-java",
+  "cwe_id": "CWE-117",
+  "title": "Improper Output Neutralization for Logs",
+  "category": "Logging",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-117/java/cwe-117-log-injection-java/vulnerable/fixture.java",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-117/java/cwe-117-log-injection-java/fixed/fixture.java",
+    "expected": false
+  }
+}

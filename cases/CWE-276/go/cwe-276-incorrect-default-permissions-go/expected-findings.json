@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-276-incorrect-default-permissions-go",
+  "cwe_id": "CWE-276",
+  "title": "Incorrect Default Permissions",
+  "category": "Authorization",
+  "language": "go",
+  "vulnerable": {
+    "path": "cases/CWE-276/go/cwe-276-incorrect-default-permissions-go/vulnerable/fixture.go",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-276/go/cwe-276-incorrect-default-permissions-go/fixed/fixture.go",
+    "expected": false
+  }
+}

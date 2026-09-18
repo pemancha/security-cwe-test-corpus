@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-352-csrf-javascript
+cwe_id: CWE-352
+title: "Cross-Site Request Forgery"
+category: "Web Security"
+language: javascript
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.js
+fixed_path: fixed/fixture.js
+vulnerable_line: 3

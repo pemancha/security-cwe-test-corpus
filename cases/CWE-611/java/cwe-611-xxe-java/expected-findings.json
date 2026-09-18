@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-611-xxe-java",
+  "cwe_id": "CWE-611",
+  "title": "Improper Restriction of XML External Entity Reference",
+  "category": "XML",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-611/java/cwe-611-xxe-java/vulnerable/fixture.java",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-611/java/cwe-611-xxe-java/fixed/fixture.java",
+    "expected": false
+  }
+}

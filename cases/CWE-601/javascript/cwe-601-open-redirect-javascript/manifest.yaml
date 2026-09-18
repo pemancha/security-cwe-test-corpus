@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-601-open-redirect-javascript
+cwe_id: CWE-601
+title: "URL Redirection to Untrusted Site"
+category: "Web Security"
+language: javascript
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.js
+fixed_path: fixed/fixture.js
+vulnerable_line: 3

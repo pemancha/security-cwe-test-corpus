@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-307-missing-rate-limit-javascript",
+  "cwe_id": "CWE-307",
+  "title": "Improper Restriction of Excessive Authentication Attempts",
+  "category": "Authentication",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-307/javascript/cwe-307-missing-rate-limit-javascript/vulnerable/fixture.js",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-307/javascript/cwe-307-missing-rate-limit-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-306-missing-authentication-go",
+  "cwe_id": "CWE-306",
+  "title": "Missing Authentication for Critical Function",
+  "category": "Authentication",
+  "language": "go",
+  "vulnerable": {
+    "path": "cases/CWE-306/go/cwe-306-missing-authentication-go/vulnerable/fixture.go",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-306/go/cwe-306-missing-authentication-go/fixed/fixture.go",
+    "expected": false
+  }
+}

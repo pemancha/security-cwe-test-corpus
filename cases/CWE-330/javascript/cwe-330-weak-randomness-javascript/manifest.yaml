@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-330-weak-randomness-javascript
+cwe_id: CWE-330
+title: "Use of Insufficiently Random Values"
+category: "Cryptography"
+language: javascript
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.js
+fixed_path: fixed/fixture.js
+vulnerable_line: 3

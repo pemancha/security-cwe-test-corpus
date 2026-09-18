@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-79-cross-site-scripting-php
+cwe_id: CWE-79
+title: "Improper Neutralization of Input During Web Page Generation"
+category: "Injection"
+language: php
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.php
+fixed_path: fixed/fixture.php
+vulnerable_line: 4

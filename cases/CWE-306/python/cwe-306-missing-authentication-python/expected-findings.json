@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-306-missing-authentication-python",
+  "cwe_id": "CWE-306",
+  "title": "Missing Authentication for Critical Function",
+  "category": "Authentication",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-306/python/cwe-306-missing-authentication-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-306/python/cwe-306-missing-authentication-python/fixed/fixture.py",
+    "expected": false
+  }
+}

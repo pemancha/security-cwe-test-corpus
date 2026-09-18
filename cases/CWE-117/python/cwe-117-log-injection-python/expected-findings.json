@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-117-log-injection-python",
+  "cwe_id": "CWE-117",
+  "title": "Improper Output Neutralization for Logs",
+  "category": "Logging",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-117/python/cwe-117-log-injection-python/vulnerable/fixture.py",
+    "lines": [
+      6
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-117/python/cwe-117-log-injection-python/fixed/fixture.py",
+    "expected": false
+  }
+}

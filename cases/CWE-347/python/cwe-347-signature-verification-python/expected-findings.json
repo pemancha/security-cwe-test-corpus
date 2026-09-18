@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-347-signature-verification-python",
+  "cwe_id": "CWE-347",
+  "title": "Improper Verification of Cryptographic Signature",
+  "category": "Cryptography",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-347/python/cwe-347-signature-verification-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-347/python/cwe-347-signature-verification-python/fixed/fixture.py",
+    "expected": false
+  }
+}

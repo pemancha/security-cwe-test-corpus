@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-78-os-command-injection-javascript",
+  "cwe_id": "CWE-78",
+  "title": "Improper Neutralization of Special Elements used in an OS Command",
+  "category": "Injection",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-78/javascript/cwe-78-os-command-injection-javascript/vulnerable/fixture.js",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-78/javascript/cwe-78-os-command-injection-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

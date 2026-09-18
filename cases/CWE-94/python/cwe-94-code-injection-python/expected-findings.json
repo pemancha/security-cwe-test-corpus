@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-94-code-injection-python",
+  "cwe_id": "CWE-94",
+  "title": "Improper Control of Generation of Code",
+  "category": "Injection",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-94/python/cwe-94-code-injection-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-94/python/cwe-94-code-injection-python/fixed/fixture.py",
+    "expected": false
+  }
+}

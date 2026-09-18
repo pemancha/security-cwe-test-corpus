@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-209-error-information-exposure-java",
+  "cwe_id": "CWE-209",
+  "title": "Generation of Error Message Containing Sensitive Information",
+  "category": "Data Protection",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-209/java/cwe-209-error-information-exposure-java/vulnerable/fixture.java",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-209/java/cwe-209-error-information-exposure-java/fixed/fixture.java",
+    "expected": false
+  }
+}

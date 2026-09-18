@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-863-incorrect-authorization-java",
+  "cwe_id": "CWE-863",
+  "title": "Incorrect Authorization",
+  "category": "Authorization",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-863/java/cwe-863-incorrect-authorization-java/vulnerable/fixture.java",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-863/java/cwe-863-incorrect-authorization-java/fixed/fixture.java",
+    "expected": false
+  }
+}

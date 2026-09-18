@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-611-xxe-csharp
+cwe_id: CWE-611
+title: "Improper Restriction of XML External Entity Reference"
+category: "XML"
+language: csharp
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.cs
+fixed_path: fixed/fixture.cs
+vulnerable_line: 4

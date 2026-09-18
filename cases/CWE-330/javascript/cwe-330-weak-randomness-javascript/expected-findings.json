@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-330-weak-randomness-javascript",
+  "cwe_id": "CWE-330",
+  "title": "Use of Insufficiently Random Values",
+  "category": "Cryptography",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-330/javascript/cwe-330-weak-randomness-javascript/vulnerable/fixture.js",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-330/javascript/cwe-330-weak-randomness-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

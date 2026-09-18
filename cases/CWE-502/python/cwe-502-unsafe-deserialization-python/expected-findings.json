@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-502-unsafe-deserialization-python",
+  "cwe_id": "CWE-502",
+  "title": "Deserialization of Untrusted Data",
+  "category": "Deserialization",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-502/python/cwe-502-unsafe-deserialization-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-502/python/cwe-502-unsafe-deserialization-python/fixed/fixture.py",
+    "expected": false
+  }
+}

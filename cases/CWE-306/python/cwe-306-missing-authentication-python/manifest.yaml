@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-306-missing-authentication-python
+cwe_id: CWE-306
+title: "Missing Authentication for Critical Function"
+category: "Authentication"
+language: python
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.py
+fixed_path: fixed/fixture.py
+vulnerable_line: 4

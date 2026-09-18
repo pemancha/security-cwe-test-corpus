@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-307-missing-rate-limit-python",
+  "cwe_id": "CWE-307",
+  "title": "Improper Restriction of Excessive Authentication Attempts",
+  "category": "Authentication",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-307/python/cwe-307-missing-rate-limit-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-307/python/cwe-307-missing-rate-limit-python/fixed/fixture.py",
+    "expected": false
+  }
+}

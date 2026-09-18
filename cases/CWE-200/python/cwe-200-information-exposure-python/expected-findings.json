@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-200-information-exposure-python",
+  "cwe_id": "CWE-200",
+  "title": "Exposure of Sensitive Information to an Unauthorized Actor",
+  "category": "Data Protection",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-200/python/cwe-200-information-exposure-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-200/python/cwe-200-information-exposure-python/fixed/fixture.py",
+    "expected": false
+  }
+}

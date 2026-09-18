@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-918-ssrf-go",
+  "cwe_id": "CWE-918",
+  "title": "Server-Side Request Forgery",
+  "category": "Web Security",
+  "language": "go",
+  "vulnerable": {
+    "path": "cases/CWE-918/go/cwe-918-ssrf-go/vulnerable/fixture.go",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-918/go/cwe-918-ssrf-go/fixed/fixture.go",
+    "expected": false
+  }
+}

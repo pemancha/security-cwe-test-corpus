@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-601-open-redirect-python",
+  "cwe_id": "CWE-601",
+  "title": "URL Redirection to Untrusted Site",
+  "category": "Web Security",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-601/python/cwe-601-open-redirect-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-601/python/cwe-601-open-redirect-python/fixed/fixture.py",
+    "expected": false
+  }
+}

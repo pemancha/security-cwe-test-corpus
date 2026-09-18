@@ -1,0 +1,4 @@
+# CONTROLLED SECURITY TEST FIXTURE: DO NOT DEPLOY
+# CWE-798: Use of Hard-coded Credentials
+SERVICE_USERNAME='admin'
+SERVICE_PASSWORD='fixture-only-password'  # VULNERABLE_SINK

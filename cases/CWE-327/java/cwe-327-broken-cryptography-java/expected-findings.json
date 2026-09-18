@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-327-broken-cryptography-java",
+  "cwe_id": "CWE-327",
+  "title": "Use of a Broken or Risky Cryptographic Algorithm",
+  "category": "Cryptography",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-327/java/cwe-327-broken-cryptography-java/vulnerable/fixture.java",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-327/java/cwe-327-broken-cryptography-java/fixed/fixture.java",
+    "expected": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-918-ssrf-python",
+  "cwe_id": "CWE-918",
+  "title": "Server-Side Request Forgery",
+  "category": "Web Security",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-918/python/cwe-918-ssrf-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-918/python/cwe-918-ssrf-python/fixed/fixture.py",
+    "expected": false
+  }
+}

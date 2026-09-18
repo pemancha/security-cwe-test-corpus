@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-347-signature-verification-java",
+  "cwe_id": "CWE-347",
+  "title": "Improper Verification of Cryptographic Signature",
+  "category": "Cryptography",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-347/java/cwe-347-signature-verification-java/vulnerable/fixture.java",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-347/java/cwe-347-signature-verification-java/fixed/fixture.java",
+    "expected": false
+  }
+}

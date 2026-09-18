@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-614-insecure-cookie-php",
+  "cwe_id": "CWE-614",
+  "title": "Sensitive Cookie in HTTPS Session Without Secure Attribute",
+  "category": "Web Security",
+  "language": "php",
+  "vulnerable": {
+    "path": "cases/CWE-614/php/cwe-614-insecure-cookie-php/vulnerable/fixture.php",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-614/php/cwe-614-insecure-cookie-php/fixed/fixture.php",
+    "expected": false
+  }
+}

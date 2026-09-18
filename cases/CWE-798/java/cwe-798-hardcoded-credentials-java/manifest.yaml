@@ -1,0 +1,10 @@
+schema_version: 1
+scenario_id: cwe-798-hardcoded-credentials-java
+cwe_id: CWE-798
+title: "Use of Hard-coded Credentials"
+category: "Secrets"
+language: java
+safety: static-fixture-only
+vulnerable_path: vulnerable/fixture.java
+fixed_path: fixed/fixture.java
+vulnerable_line: 3

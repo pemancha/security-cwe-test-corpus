@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-352-csrf-php",
+  "cwe_id": "CWE-352",
+  "title": "Cross-Site Request Forgery",
+  "category": "Web Security",
+  "language": "php",
+  "vulnerable": {
+    "path": "cases/CWE-352/php/cwe-352-csrf-php/vulnerable/fixture.php",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-352/php/cwe-352-csrf-php/fixed/fixture.php",
+    "expected": false
+  }
+}

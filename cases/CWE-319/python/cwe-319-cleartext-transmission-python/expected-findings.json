@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-319-cleartext-transmission-python",
+  "cwe_id": "CWE-319",
+  "title": "Cleartext Transmission of Sensitive Information",
+  "category": "Data Protection",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-319/python/cwe-319-cleartext-transmission-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-319/python/cwe-319-cleartext-transmission-python/fixed/fixture.py",
+    "expected": false
+  }
+}

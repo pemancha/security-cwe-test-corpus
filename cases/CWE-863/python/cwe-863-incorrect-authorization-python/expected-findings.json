@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-863-incorrect-authorization-python",
+  "cwe_id": "CWE-863",
+  "title": "Incorrect Authorization",
+  "category": "Authorization",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-863/python/cwe-863-incorrect-authorization-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-863/python/cwe-863-incorrect-authorization-python/fixed/fixture.py",
+    "expected": false
+  }
+}

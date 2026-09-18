@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-798-hardcoded-credentials-python",
+  "cwe_id": "CWE-798",
+  "title": "Use of Hard-coded Credentials",
+  "category": "Secrets",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-798/python/cwe-798-hardcoded-credentials-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-798/python/cwe-798-hardcoded-credentials-python/fixed/fixture.py",
+    "expected": false
+  }
+}

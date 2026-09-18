@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-601-open-redirect-javascript",
+  "cwe_id": "CWE-601",
+  "title": "URL Redirection to Untrusted Site",
+  "category": "Web Security",
+  "language": "javascript",
+  "vulnerable": {
+    "path": "cases/CWE-601/javascript/cwe-601-open-redirect-javascript/vulnerable/fixture.js",
+    "lines": [
+      3
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-601/javascript/cwe-601-open-redirect-javascript/fixed/fixture.js",
+    "expected": false
+  }
+}

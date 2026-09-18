@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-295-certificate-validation-python",
+  "cwe_id": "CWE-295",
+  "title": "Improper Certificate Validation",
+  "category": "Cryptography",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-295/python/cwe-295-certificate-validation-python/vulnerable/fixture.py",
+    "lines": [
+      5
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-295/python/cwe-295-certificate-validation-python/fixed/fixture.py",
+    "expected": false
+  }
+}

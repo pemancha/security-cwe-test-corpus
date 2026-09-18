@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-287-improper-authentication-python",
+  "cwe_id": "CWE-287",
+  "title": "Improper Authentication",
+  "category": "Authentication",
+  "language": "python",
+  "vulnerable": {
+    "path": "cases/CWE-287/python/cwe-287-improper-authentication-python/vulnerable/fixture.py",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-287/python/cwe-287-improper-authentication-python/fixed/fixture.py",
+    "expected": false
+  }
+}

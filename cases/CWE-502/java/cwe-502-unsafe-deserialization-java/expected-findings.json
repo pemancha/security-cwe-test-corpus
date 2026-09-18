@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scenario_id": "cwe-502-unsafe-deserialization-java",
+  "cwe_id": "CWE-502",
+  "title": "Deserialization of Untrusted Data",
+  "category": "Deserialization",
+  "language": "java",
+  "vulnerable": {
+    "path": "cases/CWE-502/java/cwe-502-unsafe-deserialization-java/vulnerable/fixture.java",
+    "lines": [
+      4
+    ],
+    "expected": true
+  },
+  "fixed": {
+    "path": "cases/CWE-502/java/cwe-502-unsafe-deserialization-java/fixed/fixture.java",
+    "expected": false
+  }
+}
