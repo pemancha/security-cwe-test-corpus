@@ -1,0 +1,9 @@
+<?php
+
+$conn = new mysqli("localhost", "dbuser", "dbpass", "app_db");
+
+$username = $_GET['user'];
+// Vulnerability: Unsanitized input concatenated directly into SQL query
+$query = "SELECT * FROM users WHERE username = '" . $username . "'";
+$result = $conn->query($query);
+?>
