@@ -1,0 +1,13 @@
+
+fn main() {
+    let raw_ptr: *const i32;
+    {
+        let value = 42;
+        raw_ptr = &value as *const i32;
+    } // 'value' goes out of scope and is dropped here
+
+    unsafe {
+        // Vulnerability: Dereferencing a dangling raw pointer
+        println!("Value: {}", *raw_ptr);
+    }
+}
