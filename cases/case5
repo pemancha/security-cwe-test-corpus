@@ -1,0 +1,6 @@
+
+def read_user_file(filename):
+    # Vulnerability: Missing path sanitization allows directory traversal (e.g., "../../etc/passwd")
+    file_path = "/var/www/uploads/" + filename
+    with open(file_path, "r") as f:
+        return f.read()
