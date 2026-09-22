@@ -1,0 +1,7 @@
+# Sample 2: Command Injection
+import os
+
+def ping_host(host_address):
+    # Vulnerability: Untrusted input passed directly to OS shell execution
+    command = "ping -c 1 " + host_address
+    os.system(command)
