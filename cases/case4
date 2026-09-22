@@ -1,0 +1,9 @@
+
+import requests
+
+# Vulnerability: Storing sensitive API keys directly in source code
+AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE"
+
+def upload_log(log_data):
+    headers = {"Authorization": f"Bearer {AWS_SECRET_KEY}"}
+    requests.post("https://api.example.com/logs", headers=headers, data=log_data)
