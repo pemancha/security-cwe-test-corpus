@@ -17,6 +17,10 @@ def main() -> None:
     sarif = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
     observed: set[tuple[str, str]] = set()
     for run in sarif.get("runs", []):
+            truth = json.loads((ROOT / "ground-truth" / "catalog.json").read_text(encoding="utf-8"))["items"]
+    sarif = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+    observed: set[tuple[str, str]] = set()
+    for run in sarif.get("runs", []):
         rules = {str(index): rule.get("id", "") for index, rule in enumerate(run.get("tool", {}).get("driver", {}).get("rules", []))}
         for result in run.get("results", []):
             rule = result.get("ruleId") or rules.get(str(result.get("ruleIndex")), "")
