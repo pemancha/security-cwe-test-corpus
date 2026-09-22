@@ -1,0 +1,15 @@
+IDENTIFICATION DIVISION.
+       PROGRAM-ID. VULNPROG.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 INPUT-BUFFER    PIC X(10).
+       01 TARGET-BUFFER   PIC X(5).
+       PROCEDURE DIVISION.
+           ACCEPT INPUT-BUFFER FROM CONSOLE.
+      * Vulnerability: Buffer Overflow / Unchecked String Copy
+      * Copying a 10-byte string into a 5-byte target overflows adjacent memory
+           STRING INPUT-BUFFER DELIMITED BY SIZE
+               INTO TARGET-BUFFER
+           END-STRING.
+           DISPLAY "TARGET: " TARGET-BUFFER.
+           STOP RUN.
